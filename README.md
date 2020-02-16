@@ -2,9 +2,9 @@
 # 总结集中设计模式
 ## java的设计模式总结、理解、实现
 
-* #Singleton 单例模式
+* ## Singleton 单例模式
     * 懒汉、饿汉、双检锁、枚举等
-* #Strategy 策略模式
+* ## Strategy 策略模式
     * ### Original：此包里面的实现方式是经典原始的父类、子类继承
       * Duck：父类，包括swim、fly、tweet三个方法，
       * WildDuck：野鸭继承自Duck，野鸭可以飞、可以叫、可以游泳所以不用重写父类的方法，完美继承
